@@ -13,30 +13,52 @@ Number of Elements: 3
 Number of Nodes: 4
 
 Node 1 Location [X,Y]: [0,0]
+
 Node 2 Location [X,Y]: [3,0]
+
 Node 3 Location [X,Y]: [5,0]
+
 Node 4 Location [X,Y]: [7,0]
 
+
 Element 1 Location [Node Start, Node End]: [1,2]
+
 Element 2 Location [Node Start, Node End]: [2,3]
+
 Element 3 Location [Node Start, Node End]: [3,4]
 
+
 Node 1 Boundary Type: Free End [1,1,1]
+
 Node 2 Boundary Type: Free End [1,1,1]
+
 Node 3 Boundary Type: Free End [1,1,1]
+
 Node 4 Boundary Type: Built In Support [0,0,0]
 
+
 Boundary Displacements: [ x1
+
                           y1
+                          
                           theta_z_1
+                          
                           x2
+                          
                           y2
+                          
                           theta_z_2
+                          
                           x3
+                          
                           y3
+                          
                           theta_z_3
+                          
                           0
+                          
                           0
+                          
                           0 ]
 
 Forces Located at Nodes : [ 0.0
