@@ -1,0 +1,1 @@
+# Direct-Method-Beam-Stress-Calculator
