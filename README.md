@@ -37,7 +37,9 @@ Node 3 Boundary Type: Free End [1,1,1]
 Node 4 Boundary Type: Built In Support [0,0,0]
 
 
-Boundary Displacements: [ x1
+Boundary Displacements: [ 
+
+                          x1
 
                           y1
                           
