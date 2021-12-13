@@ -22,7 +22,11 @@ Input Directions: (Determine the type of units you will enter, unit conversions 
 
 8.) "Node # Boundary Type: " - Enter the number corresponding to the boundary type the node has. If a node simply connects two elements together it can be characterized as a free end.
 
-9.) "Enter Node # X Force: "
+9.) "Enter Node # X Force: " - Enter the force in the x direction inlcuding a component of a force vector. Note these are applied forces only which are forces specifically located at nodes. 
+
+10.) "Enter Node # Y Force: " - Enter the force in the y direction inlcuding a component of a force vector. Again this is asking for the applied force
+
+11.) "Enter Node # Theta_Z Moment: " - Enter the moment in the theta_z direction. This step is asking for the applied moment not a reactionary one.
 
 All computational results are saved to a .txt file. 
 
