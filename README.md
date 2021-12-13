@@ -30,6 +30,12 @@ Input Directions: (Determine the type of units you will enter, unit conversions 
 
 12.) "Enter Node #'s X Reaction Force: " This is the x component of any reactions due to either a force/moment not location at a node or a distributed load across a element. 
 
+13.) "Element # Area: " - Enter the cross-sectional area associated with the element. Note this program can only take in a constant area for element but it allows you to have  elements with different areas.
+
+14.) "Element # Elastic Modulus: " - Enter with appropriate units.
+
+15.) "Element # Moment of Inertia: " - Enter with appropriate units.
+
 All computational results are saved to a .txt file. 
 
 Example Results:
