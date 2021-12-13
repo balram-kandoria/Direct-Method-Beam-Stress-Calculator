@@ -28,6 +28,8 @@ Input Directions: (Determine the type of units you will enter, unit conversions 
 
 11.) "Enter Node # Theta_Z Moment: " - Enter the moment in the theta_z direction. This step is asking for the applied moment not a reactionary one.
 
+12.) "Enter Node #'s X Reaction Force: " This is the x component of any reactions due to either a force/moment not location at a node or a distributed load across a element. 
+
 All computational results are saved to a .txt file. 
 
 Example Results:
