@@ -1,8 +1,28 @@
 # Direct-Method-Beam-Stress-Calculator
 
-The direct method calculator will take in information such as the number of elements, nodes, node locations, material characteristics, forces, and boundary conditions to calculate the final displacements. 
+The direct method calculator takes in information such as the number of elements, nodes, node locations, material characteristics, forces, and boundary conditions to calculate the final displacements. This program is intended to relieve some of the hand work of solving tedious beam deflection problems but also to serve as a check to already calculated values.
 
-The 3 dof solver takes in global X, global Y, and Theta Z values and will compute those directional displacements. The method to input forces is also special. When asked to enter node forces enter those values with respect to the global coordinate system. For forces along a given element, you should calulate the loads at the joints due to such loads and compute the reaction forces. The program will ask for the reaction forces and will compute the correct force vector as a result. 
+The 3 dof solver takes in global X, global Y, and Theta Z values and will compute those directional displacements. The method to input forces is also special. When asked to enter node forces enter those values with respect to the global coordinate system. For forces along a given element, you should calulate the loads at the joints due to such loads and compute the reaction forces. The program will ask for the reaction forces and will compute the correct force vector as a result.  
+
+Input Directions: (Determine the type of units you will enter, unit conversions are NOT carried out by the program)
+
+1.) "Problem Name: " - Enter a simple name to identify the problem. You don't need to enter .txt or any other file identifier, that is already taken care of in the code.
+
+2.) "Number of Elements: " - Enter the number of elements. Make sure to label elements in your problem before hand so you can easily reference it in the resulting solution ticket. Not keep element numbers consitent will lead to invalid results and or confusion when interpreting the results.
+
+3.) "Number of Nodes: " - Enter the number of nodes. Again follow the warning said in Input Direction 2.
+
+4.) "X Location for Node #: " - Input the x location of the node requested. If entering 0, simply enter 0 and 00 will result in an error.
+
+5.) "Y Location for Node #: " - Input the y location of the node requested. Make sure to keep units constant.
+
+6.) "Element # Node start: " - Input the starting node number (NOT location) of the requested element. Elements are characterized by their starting and ending nodes. Elements will commonly share starting and ending nodes, its important to display this relationship when inputing this data. For example, Element 1 can start at Node 1 and end at Node 2 while Element 2 can start at Node 2 and end at Node 3.
+
+7.) "Element # Node end: " Input ending node number (NOT location) of the requested element. Follow the same rules stated in problem 6.
+
+8.) "Node # Boundary Type: " - Enter the number corresponding to the boundary type the node has. If a node simply connects two elements together it can be characterized as a free end.
+
+9.) "Enter Node # X Force: "
 
 All computational results are saved to a .txt file. 
 
