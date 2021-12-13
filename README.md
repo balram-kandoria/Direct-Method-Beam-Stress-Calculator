@@ -36,6 +36,8 @@ Input Directions: (Determine the type of units you will enter, unit conversions 
 
 15.) "Element # Moment of Inertia: " - Enter with appropriate units.
 
+Lastly, you'll find your results printed in the terminal and also in a solution ticket, a .txt file, with the problem name you inputted initially. 
+
 All computational results are saved to a .txt file. 
 
 Example Results:
